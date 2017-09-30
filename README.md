@@ -6,14 +6,12 @@ Build a 15-element Yagi tuned to 2.450GHz. Follow [these instructions](https://w
 
 You only need about 3 ft of 14 awg copper, which could be just 1 ft of grounded cable if you don't mind stripping two of the conductors.
 
-![grounded cable]
-(https://raw.githubusercontent.com/dkirkby/starfish/master/img/IMG_2404.JPG)
+![grounded cable](https://raw.githubusercontent.com/dkirkby/starfish/master/img/IMG_2404.JPG)
 
 Instead of drilling parallel holes, I used a small file to make parallel grooves in a piece of 0.75" x 1.5" x 1.5' poplar ($2),
 and glued the antenna conductors in place.
 
-![groove assembly]
-(https://raw.githubusercontent.com/dkirkby/starfish/master/img/IMG_2403.JPG)
+![groove assembly](https://raw.githubusercontent.com/dkirkby/starfish/master/img/IMG_2403.JPG)
 
 ## Wifi Transceiver
 
