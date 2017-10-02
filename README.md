@@ -24,4 +24,9 @@ for $15 since it is popular on RPi.
 Use a RPi3 for the router. An older model w/o onboard wifi (which we won't use) would probably be ok, but is less
 useful for other projects.  Should measure the CPU usage under load to see if the RPi faster clock is necessary.
 
-Use [PiBakery](http://www.pibakery.org/) to pre-configure an SD card will full Raspian and hostname `starfish`.
+- Download latest lite version of raspbian (currently "stretch" kernel version 4.9).
+- Burn to uSD card using Etcher.
+- Use "touch /Volumes/boot/ssh" to create empty file on uSD that enables sshd.
+- Login to rpi via ethernet interface (can use a cable directly from laptop to RPi or go through a router).
+- Install packages (need internet uplink for this):
+  - `sudo apt-get install git`
